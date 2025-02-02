@@ -8,7 +8,7 @@ with open('play.yml') as f:
         for key, value in yaml_content.items():
             print(f"{key}: {value}")
 
-'''
+
 # Python dump() method serializes a Python object into a YAML stream
 
 users = [{'name': 'John Doe', 'occupation': 'gardener'},
@@ -23,4 +23,3 @@ print(type(yaml.dump(users))) # <class 'str'>
 with open('users.yaml', 'w') as f:
    data = yaml.dump(users, f)
 
-'''
