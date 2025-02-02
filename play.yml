@@ -1,0 +1,17 @@
+list_01: [ 1, 2, 3 ]
+list_02:
+  - 4
+  - 5
+  - 6
+list_03:
+  - "one"
+  - "two"
+  - "three"
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    name: http
+  - port: 443
+    name: https
+  - port: ~

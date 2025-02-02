@@ -1,0 +1,19 @@
+
+---
+govenment:
+    School:
+      - name: DPS
+        pricipal: Someone
+        Students:
+          - rno: 12
+            name: Kunal Kuswaha
+            marks: 67
+---
+spec:
+  type: NodePort
+  ports:
+  - port: 80
+    name: http
+  - port: 443
+    name: https
+  - port: ~
